@@ -1,0 +1,87 @@
+﻿body {
+	font-family: 'Open Sans', serif;
+}
+
+h1, h3, h3, h4, h5, h6 {
+	font-family: 'Open Sans', serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+footer {
+	padding: 90px 0;
+	color: #333;
+}
+
+.section {
+	padding: 90px 0;
+}
+
+.screens-section {
+	padding-bottom: 60px;
+}
+
+.section-header {
+	padding-bottom: 30px;
+}
+
+.section-title {
+	color: #333;
+	font-family: 'Open Sans', serif;
+}
+
+.header-strips-one {
+	width: 70px;
+	height: 1px;
+	position: relative;
+	margin: 20px auto 19px;
+	border-top: 1px solid #d0d0d0;
+}
+
+.link {
+	display: block;
+	margin-bottom: 30px;
+	color: #333;
+	text-align: center;
+}
+
+.link:hover {
+	opacity: 0.7;
+}
+
+.link img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 10px #d7d8d9;
+}
+
+img {
+	margin: 0 auto;
+}
+
+.site-header {
+	background-image: url(images/image-23.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	padding: 210px 0 !important;
+	position: relative;
+	height: auto;
+}
+
+.section-container {
+	position: relative;
+	z-index: 10;
+}
+
+.overlay {
+	z-index: 0;	
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
